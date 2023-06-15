@@ -1,0 +1,81 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-color: #A910E8;
+}
+
+@media (max-width: 1400px){
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px){
+    html {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 450px){
+    html {
+        font-size: 7px;
+    }
+}
+
+.div-nav nav {
+    background-color: #E83A1F;
+    padding: 0% 0% 0% 15%;
+    height: 3.5rem;
+}
+
+.div-nav nav div a:hover {
+    background-color: #FF9225;
+    border-radius: 5px;
+    padding: 0.6rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.submain {
+    width: 60%;
+    height: 40%;
+    margin: 15% 20%;
+}
+
+.div2 {
+    text-align: right;
+    color: #ffff;
+    font-weight: bold;
+}
+
+.know-me-btn {
+    width: 16%;
+    background-color: #FF17C6;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 1rem;
+    box-shadow: -2.5px -2.5px #1C93FF;
+}
+
+.know-me-btn:hover {
+    background-color: #FF9225;
+}
+
+h1 {
+    color: #ffff;
+    font-size: 4rem;
+    text-shadow: -2.5px -2.5px 1px #FF1F93;
+}
+
+p {
+    font-size: 2rem;
+}
+
+a {
+    color: #ffff!important;
+}
