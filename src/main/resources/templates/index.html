@@ -11,30 +11,12 @@
             crossorigin="anonymous"></script>
 
     <!--My CSS-->
-    <link rel="stylesheet" type="text/css" href="static/css/Style.css" th:href="@{/css/Style.css}">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/Style.css}">
 </head>
 <body>
 
 <div class="main">
-    <div class="div-nav">
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid space">
-                <a class="navbar-brand" href="#">Rosy's site</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#">Skills</a>
-                        <a class="nav-link" href="#">Social media</a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-    </div>
+    <div th:insert="nav.html"></div>
 
     <div class="submain">
             <div>

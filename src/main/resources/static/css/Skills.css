@@ -1,0 +1,15 @@
+body {
+    background-color: #1C93FF!important;
+}
+
+.skill-section {
+    margin: 15% 20% 0% 20%;
+}
+
+.skill {
+    display: inline-flex;
+}
+
+.description {
+    margin-left: 2%;
+}

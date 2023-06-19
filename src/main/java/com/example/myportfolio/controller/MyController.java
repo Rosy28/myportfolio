@@ -12,4 +12,9 @@ public class MyController {
         model.addAttribute("name","Rosy");
         return "index";
     }
+
+    @GetMapping("/skills")
+    public String skills(Model model){
+        return "skills";
+    }
 }

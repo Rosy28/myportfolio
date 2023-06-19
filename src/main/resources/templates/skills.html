@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Rosy's site</title>
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"></script>
+
+    <!--My CSS-->
+    <link rel="stylesheet" type="text/css" th:href="@{/css/Skills.css}">
+</head>
+<body>
+  <div th:insert="nav.html"></div>
+
+  <div class="skill-section">
+    <table>
+      <tr>
+        <th>
+          <h1>My Skills</h1>
+        </th>
+      </tr>
+      <tr>
+        <td>
+          <div class="skill">
+            <div>
+              <img th:src="@{/images/adaptation.png}" alt="Adaptability image" width="20%" height="20%">
+            </div>
+            <div class="description">
+              <h2>Adaptability</h2>
+              <p>To work in any project or team, learning from the environment.</p>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h2>Teamwork</h2>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h2>Responsability</h2>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h2>Comunication</h2>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <h2>Troubleshooting</h2>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+</body>
+</html>
