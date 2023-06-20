@@ -12,6 +12,7 @@
 
     <!--My CSS-->
     <link rel="stylesheet" type="text/css" th:href="@{/css/Skills.css}">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/Style.css}">
 </head>
 <body>
   <div th:insert="nav.html"></div>
@@ -20,14 +21,17 @@
     <table>
       <tr>
         <th>
-          <h1>My Skills</h1>
+          <div class="title">
+            <h1>My Skills</h1>
+            <hr class="rounded">
+          </div>
         </th>
       </tr>
       <tr>
         <td>
           <div class="skill">
-            <div>
-              <img th:src="@{/images/adaptation.png}" alt="Adaptability image" width="20%" height="20%">
+            <div class="skill-img">
+              <img th:src="@{/images/adaptability.png}" alt="Adaptability image">
             </div>
             <div class="description">
               <h2>Adaptability</h2>
@@ -38,22 +42,54 @@
       </tr>
       <tr>
         <td>
-          <h2>Teamwork</h2>
+          <div class="skill">
+            <div class="skill-img">
+              <img th:src="@{/images/teamwork.png}" alt="Teamwork image">
+            </div>
+            <div class="description">
+              <h2>Teamwork</h2>
+              <p>Able to work and use productive time with coworkers.</p>
+            </div>
+          </div>
         </td>
       </tr>
       <tr>
         <td>
-          <h2>Responsability</h2>
+          <div class="skill">
+            <div class="skill-img">
+              <img th:src="@{/images/responsability.png}" alt="Responsability image">
+            </div>
+            <div class="description">
+              <h2>Responsability</h2>
+              <p>To comply the times and the requirements.</p>
+            </div>
+          </div>
         </td>
       </tr>
       <tr>
         <td>
-          <h2>Comunication</h2>
+          <div class="skill">
+            <div class="skill-img">
+              <img th:src="@{/images/comunication.png}" alt="Comunication image">
+            </div>
+            <div class="description">
+              <h2>Comunication</h2>
+              <p>To express and explain my needs, problems and solutions to others.</p>
+            </div>
+          </div>
         </td>
       </tr>
       <tr>
         <td>
-          <h2>Troubleshooting</h2>
+          <div class="skill">
+            <div class="skill-img">
+              <img th:src="@{/images/troubleshooting.png}" alt="Troubleshooting image">
+            </div>
+            <div class="description">
+              <h2>Troubleshooting</h2>
+              <p>Under stress situations to get the objectives.</p>
+            </div>
+          </div>
         </td>
       </tr>
     </table>

@@ -1,15 +1,46 @@
 body {
-    background-color: #1C93FF!important;
+    background-color: #FF1F93!important;
 }
 
 .skill-section {
-    margin: 15% 20% 0% 20%;
+    margin: 3% 20% 0% 20%;
 }
 
 .skill {
     display: inline-flex;
+    margin-bottom: 4.5%;
+    padding: 2%;
+    border-radius: 20px;
+    border-width: 2px!important;
+    background-color: hotpink;
+    box-shadow: 0 4px 3px #1C93FF;
+}
+
+.skill-img {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img {
+    width: 65%;
+    height: max-content;
 }
 
 .description {
+    width: 70%;
     margin-left: 2%;
+}
+
+h1 {
+    text-shadow: -2.9px -2.9px 1px #A910E8!important;
+}
+
+.title {
+    margin-bottom: 5%!important;
+}
+
+hr.rounded {
+    border-top: 8px solid #A910E8;
+    border-radius: 5px;
 }
